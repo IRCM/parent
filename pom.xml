@@ -40,7 +40,7 @@
 		<javac.version>1.8</javac.version>
 		<enforce.javaVersion>${javac.version}</enforce.javaVersion>
 		<enforce-plugin-versions.skip>false</enforce-plugin-versions.skip>
-		<enforce-upper-bounds-dependencies.skip>false</enforce-upper-bounds-dependencies.skip>
+		<enforce-upper-bounds-dependencies.skip>true</enforce-upper-bounds-dependencies.skip>
 		<enforce-release-dependencies.skip>false</enforce-release-dependencies.skip>
 		<assembly.descriptorRef>jar-with-dependencies</assembly.descriptorRef>
 	</properties>
@@ -327,6 +327,12 @@
 		</plugins>
 	</build>
 	<profiles>
+		<profile>
+			<id>enforce-upper-bounds-dependencies</id>
+            <properties>
+                <enforce-upper-bounds-dependencies.skip>false</enforce-upper-bounds-dependencies.skip>
+            </properties>
+		</profile>
 		<profile>
 			<id>eclipse-enforcer</id>
 			<build>
