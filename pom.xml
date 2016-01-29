@@ -334,6 +334,12 @@
       </properties>
     </profile>
     <profile>
+      <id>site-quick</id>
+      <properties>
+        <dependency.locations.enabled>false</dependency.locations.enabled>
+      </properties>
+    </profile>
+    <profile>
       <id>eclipse-enforcer</id>
       <build>
         <pluginManagement>
