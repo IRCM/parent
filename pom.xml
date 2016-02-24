@@ -365,7 +365,7 @@
             <excludes>
               <exclude>**/README</exclude>
               <exclude>**/*.txt</exclude>
-              <exclude>.*</exclude>
+              <exclude>**/.*</exclude>
             </excludes>
             <executions>
               <execution>
