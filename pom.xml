@@ -110,6 +110,7 @@
     <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
     <buildnumber-maven-plugin.version>1.4</buildnumber-maven-plugin.version>
     <license-maven-plugin.version>2.3</license-maven-plugin.version>
+    <findbugs-maven-plugin.version>3.0.0</findbugs-maven-plugin.version>
   </properties>
   <build>
     <pluginManagement>
@@ -471,6 +472,11 @@
             </reports>
           </reportSet>
         </reportSets>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>findbugs-maven-plugin</artifactId>
+        <version>${findbugs-maven-plugin.version}</version>
       </plugin>
     </plugins>
   </reporting>
