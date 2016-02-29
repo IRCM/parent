@@ -28,7 +28,7 @@
   <groupId>ca.qc.ircm</groupId>
   <artifactId>ircm-parent</artifactId>
   <name>ircm-parent</name>
-  <version>2</version>
+  <version>3-SNAPSHOT</version>
   <packaging>pom</packaging>
   <inceptionYear>2012</inceptionYear>
   <description>Parent POM for IRCM's projects.</description>
