@@ -1,4 +1,5 @@
 /.settings
 /.project
 /target
+/.checkstyle
 .DS_Store
