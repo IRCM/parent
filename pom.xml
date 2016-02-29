@@ -111,6 +111,7 @@
     <buildnumber-maven-plugin.version>1.4</buildnumber-maven-plugin.version>
     <license-maven-plugin.version>2.3</license-maven-plugin.version>
     <findbugs-maven-plugin.version>3.0.0</findbugs-maven-plugin.version>
+    <jgitflow-maven-plugin.version>1.0-m5.1</jgitflow-maven-plugin.version>
   </properties>
   <build>
     <pluginManagement>
@@ -420,6 +421,14 @@
                 <goals><goal>check</goal></goals>
               </execution>
             </executions>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>external.atlassian.jgitflow</groupId>
+          <artifactId>jgitflow-maven-plugin</artifactId>
+          <version>${jgitflow-maven-plugin.version}</version>
+          <configuration>
+            <enableSshAgent>true</enableSshAgent>
           </configuration>
         </plugin>
       </plugins>
