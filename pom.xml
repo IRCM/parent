@@ -32,7 +32,7 @@
   <packaging>pom</packaging>
   <inceptionYear>2012</inceptionYear>
   <description>Parent POM for IRCM's projects.</description>
-  <url>http://bitbucket.org/ircm/ircm-parent</url>
+  <url>http://bitbucket.org/ircm/parent</url>
   <organization>
     <name>Institut de recherches cliniques de Montreal (IRCM)</name>
     <url>http://www.ircm.qc.ca</url>
@@ -58,14 +58,14 @@
     </developer>
   </developers>
   <scm>
-    <connection>scm:git:git@bitbucket.org:ircm/ircm-parent.git</connection>
-    <developerConnection>scm:git:git@bitbucket.org:ircm/ircm-parent.git</developerConnection>
-    <url>https://bitbucket.org/ircm/ircm-parent</url>
+    <connection>scm:git:git@bitbucket.org:ircm/parent.git</connection>
+    <developerConnection>scm:git:git@bitbucket.org:ircm/parent.git</developerConnection>
+    <url>https://bitbucket.org/ircm/parent</url>
     <tag>HEAD</tag>
   </scm>
   <issueManagement>
-    <system>Bitbucket</system>
-    <url>https://bitbucket.org/ircm/ircm-parent/issues</url>
+    <system>GitHub</system>
+    <url>https://github.com/IRCM/parent/issues</url>
   </issueManagement>
   <distributionManagement>
     <repository>
