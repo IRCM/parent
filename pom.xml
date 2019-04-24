@@ -470,6 +470,7 @@
       </activation>
       <properties>
         <dependency.locations.enabled>false</dependency.locations.enabled>
+        <dependency.details.enabled>false</dependency.details.enabled>
       </properties>
     </profile>
     <profile>
