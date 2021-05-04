@@ -80,6 +80,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <buildNumber>version-unknown</buildNumber>
     <javac.version>1.8</javac.version>
     <enforce.javaVersion>${javac.version}</enforce.javaVersion>
     <enforce.mavenVersion>3.0.1</enforce.mavenVersion>
@@ -431,12 +432,12 @@
               <exclude>**/*.txt</exclude>
               <exclude>**/.*</exclude>
             </excludes>
-            <executions>
-              <execution>
-                <goals><goal>check</goal></goals>
-              </execution>
-            </executions>
           </configuration>
+          <executions>
+            <execution>
+              <goals><goal>check</goal></goals>
+            </execution>
+          </executions>
         </plugin>
         <plugin>
           <groupId>external.atlassian.jgitflow</groupId>
@@ -494,7 +495,6 @@
     <plugins>
       <plugin>
         <artifactId>maven-surefire-report-plugin</artifactId>
-        <version>${maven-surefire-report-plugin.version}</version>
         <reportSets>
           <reportSet>
             <reports>
