@@ -112,6 +112,7 @@
     <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
     <maven-help-plugin.version>3.0.0-M4</maven-help-plugin.version>
     <maven-release-plugin.version>3.2.0</maven-release-plugin.version>
+    <maven-scm-plugin.version>1.11.2</maven-scm-plugin.version>
     <buildnumber-maven-plugin.version>1.4</buildnumber-maven-plugin.version>
     <license-maven-plugin.version>4.1</license-maven-plugin.version>
     <spotbugs-maven-plugin.version>4.2.3</spotbugs-maven-plugin.version>
@@ -409,6 +410,10 @@
         <plugin>
           <artifactId>maven-help-plugin</artifactId>
           <version>${maven-help-plugin.version}</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-scm-plugin</artifactId>
+          <version>${maven-scm-plugin.version}</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
