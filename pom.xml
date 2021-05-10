@@ -103,17 +103,17 @@
     <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
     <maven-checkstyle-plugin.version>3.1.2</maven-checkstyle-plugin.version>
     <maven-javadoc-plugin.version>3.2.0</maven-javadoc-plugin.version>
-    <maven-project-info-reports-plugin.version>3.1.0</maven-project-info-reports-plugin.version>
+    <maven-project-info-reports-plugin.version>3.1.2</maven-project-info-reports-plugin.version>
     <maven-surefire-report-plugin.version>3.0.0-M5</maven-surefire-report-plugin.version>
     <maven-antrun-plugin.version>3.0.0</maven-antrun-plugin.version>
     <maven-assembly-plugin.version>3.3.0</maven-assembly-plugin.version>
     <maven-dependency-plugin.version>3.1.2</maven-dependency-plugin.version>
     <maven-enforcer-plugin.version>3.0.0-M3</maven-enforcer-plugin.version>
-    <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
-    <maven-release-plugin.version>3.0.0-M1</maven-release-plugin.version>
+    <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
+    <maven-release-plugin.version>3.2.0</maven-release-plugin.version>
     <buildnumber-maven-plugin.version>1.4</buildnumber-maven-plugin.version>
-    <license-maven-plugin.version>3.0</license-maven-plugin.version>
-    <spotbugs-maven-plugin.version>4.0.4</spotbugs-maven-plugin.version>
+    <license-maven-plugin.version>4.1</license-maven-plugin.version>
+    <spotbugs-maven-plugin.version>4.2.3</spotbugs-maven-plugin.version>
     <jgitflow-maven-plugin.version>1.0-m5.1</jgitflow-maven-plugin.version>
   </properties>
   <build>
