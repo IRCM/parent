@@ -23,7 +23,8 @@
     THE SOFTWARE.
 
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>ca.qc.ircm</groupId>
   <artifactId>parent</artifactId>
@@ -32,7 +33,7 @@
   <packaging>pom</packaging>
   <inceptionYear>2012</inceptionYear>
   <description>Parent POM for IRCM's projects.</description>
-  <url>http://bitbucket.org/ircm/parent</url>
+  <url>https://github.com/IRCM/parent</url>
   <organization>
     <name>Institut de recherches cliniques de Montreal (IRCM)</name>
     <url>http://www.ircm.qc.ca</url>
@@ -58,9 +59,9 @@
     </developer>
   </developers>
   <scm>
-    <connection>scm:git:git@bitbucket.org:ircm/parent.git</connection>
-    <developerConnection>scm:git:git@bitbucket.org:ircm/parent.git</developerConnection>
-    <url>https://bitbucket.org/ircm/parent</url>
+    <connection>scm:git:https://github.com/IRCM/parent.git</connection>
+    <developerConnection>scm:git:https://github.com/IRCM/parent.git</developerConnection>
+    <url>https://github.com/IRCM/parent</url>
     <tag>HEAD</tag>
   </scm>
   <issueManagement>
@@ -289,7 +290,7 @@
               <configuration>
                 <skip>${enforce-plugin-versions.skip}</skip>
                 <rules>
-                  <requirePluginVersions />
+                  <requirePluginVersions/>
                 </rules>
               </configuration>
             </execution>
@@ -301,7 +302,7 @@
               <configuration>
                 <skip>${enforce-upper-bounds-dependencies.skip}</skip>
                 <rules>
-                  <requireUpperBoundDeps />
+                  <requireUpperBoundDeps/>
                 </rules>
               </configuration>
             </execution>
@@ -313,7 +314,7 @@
               <configuration>
                 <skip>${enforce-release-dependencies.skip}</skip>
                 <rules>
-                  <requireReleaseDeps />
+                  <requireReleaseDeps/>
                 </rules>
               </configuration>
             </execution>
